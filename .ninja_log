@@ -1,0 +1,11 @@
+# ninja log v5
+0	502	0	snprintf.o	28a7d368c47c33f5
+502	617	0	snprintf	7ed0f2b623ca8c63
+0	402	0	snprintf.o	28a7d368c47c33f5
+402	481	0	snprintf	7ed0f2b623ca8c63
+0	72	0	snprintf.o	28a7d368c47c33f5
+72	120	0	snprintf	7ed0f2b623ca8c63
+0	265	0	snprintf.o	28a7d368c47c33f5
+265	297	0	snprintf	7ed0f2b623ca8c63
+0	58	0	snprintf.o	28a7d368c47c33f5
+58	79	0	snprintf	7ed0f2b623ca8c63

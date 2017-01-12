@@ -1,0 +1,20 @@
+project_name = snprintf
+
+cc = cc
+cflags = -Wall
+
+rule cc
+  command = $cc $cflags $in -o $out
+
+rule obj
+  command = $cc $cflags -c $in -o $out
+
+rule asm_out
+  command = $cc -S -masm=intel $in
+
+build ${project_name}: cc ${project_name}.o
+build ${project_name}.o: obj ${project_name}.c
+
+build ${project_name}.s: asm_out ${project_name}.c
+
+default $project_name
